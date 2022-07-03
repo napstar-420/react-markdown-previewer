@@ -12,6 +12,7 @@ body {
   width: 100%;
   background-color: #110934;
   padding: 5em;
+  min-height: 100vh;
 }
 
 .App .header {
@@ -83,5 +84,32 @@ body {
   margin-bottom: 5em;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .App {
+    padding: 5em 0em;
+  }
+  .editor-container {
+    width: 70% !important;
+  }
+  .preview-container {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 70%;
+  }
+  .App {
+    background-color: #2b1972;
+  }
+  .editor-container {
+    width: 90% !important;
+  }
+  .preview-container {
+    width: 90% !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
