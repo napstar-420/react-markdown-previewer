@@ -71,10 +71,31 @@ body {
 
 .App .preview-container #preview {
   width: 100%;
+  font-family: 'open sans', sans-serif;
+}
+
+.App .preview-container #preview code {
+  background-color: #e5e0fa6b;
+  color: #29157E;
 }
 
 .App .preview-container #preview img {
   width: 100%;
+}
+
+.App .preview-container #preview table {
+  border-collapse: collapse;
+}
+
+.App .preview-container #preview table th {
+  background-color: #110934;
+  color: #E5E0FA;
+  font-weight: 200;
+}
+
+.App .preview-container #preview table td, .App .preview-container #preview table th {
+  border: 2px solid #110934;
+  padding: 0.5rem;
 }
 
 .App .style_edit-prev {

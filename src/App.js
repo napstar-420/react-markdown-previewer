@@ -1,11 +1,11 @@
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
 import './Scss/main.css';
 
 function App() {
   const [markdownText, setMarkdownText] = useState('');
-
+  
   return (
     <div className="App">
       <div className="editor-container">

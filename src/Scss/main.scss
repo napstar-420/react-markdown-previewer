@@ -55,8 +55,30 @@ body {
 
         #preview {
             width: 100%;
+            font-family: 'open sans', sans-serif;
+
+            code {
+                background-color: #e5e0fa6b;
+                color: #29157E;
+            }
+
             img {
                 width: 100%;
+            }
+
+            table {
+                border-collapse: collapse;
+
+                th {
+                    background-color: #110934;
+                    color: #E5E0FA;
+                    font-weight: 200;
+                }
+
+                td, th {
+                    border: 2px solid #110934;
+                    padding: 0.5rem;
+                }
             }
         }
     }
