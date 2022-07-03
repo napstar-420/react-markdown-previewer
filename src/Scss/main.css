@@ -1,0 +1,59 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: blue;
+}
+
+.App .editor-container {
+  width: 40%;
+  height: 20em;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: brown;
+}
+
+.App .editor-container h1 {
+  width: 100%;
+  height: 10%;
+}
+
+.App .editor-container #editor {
+  width: 100%;
+  height: 90%;
+  background-color: #a7c520;
+  padding: 2em;
+}
+
+.App .preview-container {
+  width: 80%;
+  overflow: hidden;
+  background-color: brown;
+  margin: auto;
+}
+
+.App .preview-container h1 {
+  width: 100%;
+  height: 10%;
+}
+
+.App .preview-container #preview {
+  width: 100%;
+  height: 90%;
+  padding: 1em;
+  background-color: #20c594;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.App .preview-container #preview img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
