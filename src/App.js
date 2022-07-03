@@ -1,5 +1,6 @@
-import ReactMarkdown from 'react-markdown';
 import {useState} from 'react';
+import ReactMarkdown from 'react-markdown';
+import gfm from 'remark-gfm';
 
 function App() {
   const [markdownText, setMarkdownText] = useState('');
@@ -13,7 +14,7 @@ function App() {
       <div className="preview-container">
         <h1>Preview</h1>
         <div id="preview">
-          <ReactMarkdown>{markdownText}</ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[gfm]}>{markdownText}</ReactMarkdown>
         </div>
       </div>
     </div>
