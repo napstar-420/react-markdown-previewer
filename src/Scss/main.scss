@@ -6,72 +6,50 @@
 
 body {
     margin: 0%;
-    padding: 0%;
-    width: 100%;
 }
 
 .App {
     width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    padding: 4em 3em;
     background-color: #110934;
+    padding: 5em;
 
-    .container {
-        background-color: #29157E;
-        border-radius: 5px;
-        min-height: 100%;
-        max-height: max-content;
+    .header {
+        margin: 0%;
+        color: #8C78E8;
+        background: #29157E;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 1.5rem;
+        padding: 0.5rem 2rem;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
 
-        .header {
-            font-family: 'Kdam Thmor Pro', sans-serif;
-            letter-spacing: 0.3rem;
-            margin-left: 2rem;
-            color: #8C78E8;
+    .editor-container {
+        width: 50%;
+        margin: auto;
+
+        #editor {
+            width: 100%;
+            min-height: 20em;
+            max-height: 30em;
+        }
+    }
+
+    .preview-container {
+        width: 75%;
+        margin: auto;
+
+        #preview {
+            width: 100%;
         }
     }
 
     .style_edit-prev {
         background-color: #8C78E8;
         color: #E5E0FA;
-        width: 100%;
-        border: none;
-        border-radius: 5px;
-        padding: 1em 2em;
-        min-height: 84%;
-        max-height: auto;
-
-        table {
-            border-collapse: collapse;
-
-            th {
-                background-color: black;
-                color: white;
-                font-weight: 200;
-            }
-
-            th,td {
-                border: 2px solid black;
-                padding: 0.5rem;
-            }
-        }
-    }
-
-    .editor-container {
-        width: 35%;
-
-        #editor {
-            font-size: 0.8rem;
-            outline: none;
-        }
-    }
-
-    .preview-container {
-        width: 50%;
-
-        #preview {
-            font-family: 'Open Sans', sans-serif;   
-        }
+        padding: 2em;
+        margin-bottom: 5em;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
 }
