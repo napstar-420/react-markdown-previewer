@@ -32,6 +32,19 @@ body {
             width: 100%;
             min-height: 20em;
             max-height: 30em;
+            outline: none;
+            &::-webkit-scrollbar {
+                display: block;
+                width: 8px;
+                background-color: #8C78E8;
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: #E5E0FA;
+            }
+            &::placeholder {
+                color: #E5E0FA;
+            }
+
         }
     }
 
@@ -41,6 +54,9 @@ body {
 
         #preview {
             width: 100%;
+            img {
+                width: 100%;
+            }
         }
     }
 

@@ -34,6 +34,33 @@ body {
   width: 100%;
   min-height: 20em;
   max-height: 30em;
+  outline: none;
+}
+
+.App .editor-container #editor::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  background-color: #8C78E8;
+}
+
+.App .editor-container #editor::-webkit-scrollbar-thumb {
+  background-color: #E5E0FA;
+}
+
+.App .editor-container #editor::-webkit-input-placeholder {
+  color: #E5E0FA;
+}
+
+.App .editor-container #editor:-ms-input-placeholder {
+  color: #E5E0FA;
+}
+
+.App .editor-container #editor::-ms-input-placeholder {
+  color: #E5E0FA;
+}
+
+.App .editor-container #editor::placeholder {
+  color: #E5E0FA;
 }
 
 .App .preview-container {
@@ -42,6 +69,10 @@ body {
 }
 
 .App .preview-container #preview {
+  width: 100%;
+}
+
+.App .preview-container #preview img {
   width: 100%;
 }
 
