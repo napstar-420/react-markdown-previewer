@@ -1,10 +1,7 @@
 import {useState} from 'react';
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
-<<<<<<< HEAD
-import './Scss/main.css'
-=======
->>>>>>> 1ae48eb5a0a9c14746034fc87a2e819f4b38bc33
+import './Scss/main.css';
 
 function App() {
   const [markdownText, setMarkdownText] = useState('');
