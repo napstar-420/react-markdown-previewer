@@ -79,6 +79,12 @@ body {
   color: #29157E;
 }
 
+.App .preview-container #preview blockquote {
+  font-weight: 600;
+  border-left: 4px solid #110934;
+  padding-left: 1rem;
+}
+
 .App .preview-container #preview img {
   width: 100%;
 }
