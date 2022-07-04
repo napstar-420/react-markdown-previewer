@@ -74,6 +74,10 @@ body {
   font-family: 'open sans', sans-serif;
 }
 
+.App .preview-container #preview h1, .App .preview-container #preview h2, .App .preview-container #preview h3 {
+  color: #110934;
+}
+
 .App .preview-container #preview code {
   background-color: #e5e0fa6b;
   color: #29157E;
