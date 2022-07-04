@@ -104,6 +104,20 @@ body {
     }
 }
 
+.github_link {
+    color: white;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5rem;
+    font-size: 1rem;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+}
+
 
 @media screen and (max-width: 1000px) {
     .App {
@@ -135,5 +149,14 @@ body {
 
     .preview-container {
         width: 90% !important;
+    }
+
+    .github_link {
+        font-size: 1.5rem;
+        width: 4.5em;
+    }
+
+    .github_icon {
+        font-size: 1.5rem;
     }
 }

@@ -45,7 +45,7 @@ And here. | Okay. | I think we get it.
 
   return (
     <div className="App">
-      <a style={{color: 'white', fontFamily: 'poppins', display: 'flex' , alignItems: 'center', justifyContent: 'space-between', width: '5em', position: 'absolute', right: '1rem', top: '1rem', textDecoration: 'none'}} href='https://github.com/napstar-420/react-markdown-previewer' rel='noreferrer' target='_blank' >Github <FaGithubSquare fontSize='1.2rem'/></a>
+      <a href='https://github.com/napstar-420/react-markdown-previewer' className='github_link' rel='noreferrer' target='_blank' >Github<FaGithubSquare className='github_icon' fontSize='1.3rem'/></a>
       <div className="editor-container">
         <h1 className='header'>Editor</h1>
         <textarea name="editor" id="editor" placeholder='Write Markdown here' className='style_edit-prev' rows='10' cols='50' style={{resize: 'none'}} value={markdownText} onChange={(e)=>setMarkdownText(e.target.value)}/>
