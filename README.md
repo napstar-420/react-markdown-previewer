@@ -1,4 +1,5 @@
-# React Markdown Previewer
-Simply clone the app using ```git clone [repo-link]```
-then run ```npm install``` to install the node modules
-and finally run ```npm start``` to see the site
+# React Markdown App
+### [Live Preview](https://markdown-previewer-napstar.netlify.app)
+
+## Project Preview
+![preview](https://i.ibb.co/X2L01mG/markdown-previewer-napstar-netlify-app.png)
